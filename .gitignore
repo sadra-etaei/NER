@@ -1,0 +1,48 @@
+# =====================================================================
+# DATASETS & DATA STAGING
+# =====================================================================
+# Ignores your specific CoNLL-2003 data directory
+conll2003/
+data/
+*.txt
+*.csv
+*.tsv
+*.json
+
+# =====================================================================
+# PYTHON ENVIRONMENT & CACHE
+# =====================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.rasterio/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+dist/
+build/
+*.egg-info/
+
+# =====================================================================
+# PYTORCH MODEL WEIGHTS & CHECKPOINTS
+# =====================================================================
+# Prevents committing massive deep learning model weights to Git history
+*.pt
+*.pth
+*.bin
+*.pkl
+*.ckpt
+outputs/
+checkpoints/
+
+# =====================================================================
+# IDEs & SYSTEM TRASH
+# =====================================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
