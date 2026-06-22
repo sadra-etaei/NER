@@ -1,4 +1,4 @@
-# Named Entity Recognition (NER) using Bidirectional LSTM from Scratch
+# Named Entity Recognition (NER) using Bidirectional LSTM 
 
 A clean, high-performance sequence labeling pipeline built to perform Named Entity Recognition (NER) on the CoNLL-2003 dataset. This repository demonstrates how to implement specialized token preprocessing, custom batch collating with dynamic padding, and  loss handling using both a **Bidirectional LSTM** and  **Simple Linear**  architecture in PyTorch.
 
